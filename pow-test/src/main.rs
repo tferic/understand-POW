@@ -14,8 +14,8 @@ fn main() {
     println!("My hash:               {}", myhash_str);
     let mut difficulty_str: String = format!("{:x}", DIFFICULTY);
 
-    difficulty_str.truncate(8);
-    myhash_str.truncate(8);
+    difficulty_str.truncate(16);
+    myhash_str.truncate(16);
     println!("My difficulty (trunc): {}", difficulty_str);
     println!("My hash (trunc):       {}", myhash_str);
 
